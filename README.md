@@ -6,7 +6,7 @@
 
 **Единый notebook** (без модулей) - `ML_book_recommender_classes.ipynb`
 
-### Google Colab (рекомендуется)
+### Google Colab 
 
 **Шаг 1**: Выполните в первой ячейке:
 ```bash
@@ -30,7 +30,7 @@ jupyter notebook ML_book_recommender_classes.ipynb
 - **Датасет**: GoodBooks-10k (6M оценок, 53K пользователей, 10K книг)
 - **Train/Test**: 80%/20% (стратифицированный split по пользователям)
 - **Валидация**: Train → 90% train_fit / 10% val (для подбора гиперпараметров гибрида)
-- **Проверка на data leakage**: пары (user_id, book_id) не пересекаются ✅
+- **Проверка на data leakage**: пары (user_id, book_id) 
 
 ## Модели
 
