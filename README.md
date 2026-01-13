@@ -8,16 +8,16 @@
 
 ### Google Colab 
 
-**Шаг 1**: Выполните в первой ячейке:
+**1**: Выполните в первой ячейке:
 ```bash
 pip -q uninstall -y scikit-surprise surprise numpy
 pip -q install numpy==1.26.4
 pip -q install --no-cache-dir scikit-surprise implicit
 ```
 
-**Шаг 2**:  **ОБЯЗАТЕЛЬНО Restart Runtime** (Runtime → Restart runtime)
+**2**:  **ОБЯЗАТЕЛЬНО Restart Runtime** (Runtime → Restart runtime)
 
-**Шаг 3**: Запустите остальные ячейки последовательно
+**3**: Запустите остальные ячейки последовательно
 
 ### Локально (Jupyter)
 ```bash
